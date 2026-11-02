@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РумТибет — путешествия в горы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+       
+        <a href="#" class="logo">▲ РУМТИБЕТ</a>
+
+       
+        <nav class="nav" id="nav">
+            <a href="#home">Главная</a>
+            <a href="#about">Про нас</a>
+            <a href="#programs">Программа тура</a>
+            <a href="#tours">Стоимость</a>
+            <a href="#blog">Блог</a>
+            <a href="#contacts">Контакты</a>
+           
+            <a href="#contacts" class="dark-button mobile-consultation">Консультация</a>
+        </nav>
+
+        
+        <a href="#contacts" class="dark-button desktop-consultation">Консультация</a>
+
+       =
+        <button class="burger" id="burger" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Насладись прогулкой в горах с командой единомышленников</h1>
+
+                <form class="search-form">
+                    <select aria-label="Локация">
+                        <option>Локация для тура</option>
+                        <option>Горные озёра</option>
+                        <option>Горные вершины</option>
+                        <option>Лесные маршруты</option>
+                    </select>
+
+                    <input type="date" aria-label="Дата похода">
+
+                    <select aria-label="Количество участников">
+                        <option>Участники</option>
+                        <option>4 человека</option>
+                        <option>5 человек</option>
+                        <option>6 человек</option>
+                    </select>
+
+                    <button type="submit">Найти программу</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about-images">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600"
+                     alt="Горные вершины">
+                <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600"
+                     alt="Природа">
+            </div>
+
+            <div class="about-text">
+                <p class="subtitle">О нашем походе</p>
+                <h2>Исследуйте все горные массивы мира вместе с нами</h2>
+                <p>Открывайте красивые места, наслаждайтесь природой и получайте новые впечатления вместе с нашей командой.</p>
+                <a href="#programs" class="dark-button">Программа тура</a>
+            </div>
+        </section>
+
+        <section class="programs section" id="programs">
+            <div class="programs-text">
+                <p class="subtitle">Наше предложение</p>
+                <h2>Лучшие программы для тебя</h2>
+                <p>Выбирай маршрут и отправляйся навстречу приключениям.</p>
+
+                <div class="advantage">
+                    <h3>Опытный гид</h3>
+                    <p>Профессиональное сопровождение на протяжении всего маршрута.</p>
+                </div>
+
+                <div class="advantage">
+                    <h3>Безопасный поход</h3>
+                    <p>Продуманные маршруты и внимание к безопасности участников.</p>
+                </div>
+
+                <div class="advantage">
+                    <h3>Лояльные цены</h3>
+                    <p>Интересные путешествия по доступной стоимости.</p>
+                </div>
+
+                <a href="#tours" class="dark-button">Стоимость программ</a>
+            </div>
+
+            <div class="programs-images">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500" alt="Путешествие">
+                <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?w=500" alt="Поход">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500" alt="Горный пейзаж">
+                <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=500" alt="Природа">
+            </div>
+        </section>
+
+        <section class="tours section" id="tours">
+            <p class="subtitle">По версии отдыхающих</p>
+            <h2>Популярные направления</h2>
+
+            <div class="tour-list">
+                <article class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600" alt="Горное озеро">
+                    <span class="rating">★ 4.9</span>
+                    <div class="tour-info">
+                        <h3>Озеро возле гор</h3>
+                        <p>Красивое озеро среди горных вершин.</p>
+                        <span>480 $</span>
+                    </div>
+                </article>
+
+                <article class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600" alt="Ночь в горах">
+                    <span class="rating">★ 4.9</span>
+                    <div class="tour-info">
+                        <h3>Ночь в горах</h3>
+                        <p>Невероятное звёздное небо и свежий воздух.</p>
+                        <span>500 $</span>
+                    </div>
+                </article>
+
+                <article class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600" alt="Йога на природе">
+                    <span class="rating">★ 5.0</span>
+                    <div class="tour-info">
+                        <h3>Йога в горах</h3>
+                        <p>Спокойствие и отдых на природе.</p>
+                        <span>230 $</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="blog section" id="blog">
+            <p class="subtitle">Делимся впечатлениями</p>
+            <h2>Блог о путешествиях</h2>
+
+            <div class="blog-list">
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=500" alt="Италия">
+                    <h3>Красивая Италия, какая она в реальности?</h3>
+                    <p>Узнайте о красивых местах и интересных маршрутах.</p>
+                    <a href="#contacts">Читать статью →</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500" alt="Самолёт">
+                    <h3>Долой сомнения! Весь мир открыт для вас!</h3>
+                    <p>Советы для тех, кто мечтает о путешествиях.</p>
+                    <a href="#contacts">Читать статью →</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500" alt="Турист">
+                    <h3>Как подготовиться к путешествию в одиночку?</h3>
+                    <p>Что нужно знать перед отправлением в путь.</p>
+                    <a href="#contacts">Читать статью →</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=500" alt="Тадж-Махал">
+                    <h3>Индия — летим?</h3>
+                    <p>Знакомство с культурой и удивительными местами.</p>
+                    <a href="#contacts">Читать статью →</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="gallery section">
+            <p class="subtitle">Фото-отчёт</p>
+            <h2>Делимся впечатлениями</h2>
+
+            <div class="gallery-list">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500" alt="Путешественники">
+                <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=500" alt="Пейзаж">
+                <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=500" alt="Море">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500" alt="Озеро">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500" alt="Горы">
+                <img src="https://images.unsplash.com/photo-1455390582262-044cdeb277a3?w=500" alt="Планирование поездки">
+            </div>
+        </section>
+
+        <section class="subscribe section">
+            <div>
+                <p class="subtitle">Актуально</p>
+                <h2>Получайте полезные рассылки о путешествиях</h2>
+            </div>
+
+            <form id="subscribe-form">
+                <label for="email">Введите e-mail адрес</label>
+                <div class="email-row">
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                    <button type="submit">Подписаться на новости</button>
+                </div>
+                <small>Подписываясь, вы соглашаетесь на получение новостей.</small>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="footer-content">
+            <div>
+                <h3>Компания «РумТибет»</h3>
+                <p>Открываем красивые места и помогаем организовать незабываемые путешествия.</p>
+                <p>Email: info@example.com</p>
+                <p>Телефон: +7 (123) 456-78-90</p>
+            </div>
+
+            <div>
+                <h3>Наши услуги</h3>
+                <a href="#programs">› Прогулки в горах летом</a>
+                <a href="#programs">› Зимние походы в горы</a>
+                <a href="#tours">› Путешествия с гидом</a>
+                <a href="#tours">› Экстремальные туры</a>
+                <a href="#tours">› Походы выходного дня</a>
+            </div>
+
+            <div>
+                <h3>Важно для путешествий</h3>
+                <a href="#about">› Как собрать рюкзак?</a>
+                <a href="#about">› Что взять с собой?</a>
+                <a href="#about">› Медицинская страховка</a>
+                <a href="#about">› Правила безопасности</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© РумТибет, 2026</p>
+            <p>Все права защищены</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
